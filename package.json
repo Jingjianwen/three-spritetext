@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "three-spritetext@1.6.4",
+      "E:\\wcs1\\agvs-webserver\\Monitor"
+    ]
+  ],
+  "_from": "three-spritetext@1.6.4",
+  "_id": "three-spritetext@1.6.4",
+  "_inBundle": false,
+  "_integrity": "sha512-KngnmDnpRe5UdnhD1N+5GrhGC9aibs5/5nnBWFH23FDSYdLIk8NUwZFtEJpXXYKjUp/jjAw4dz0vRKroz8cILg==",
+  "_location": "/three-spritetext",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "three-spritetext@1.6.4",
+    "name": "three-spritetext",
+    "escapedName": "three-spritetext",
+    "rawSpec": "1.6.4",
+    "saveSpec": null,
+    "fetchSpec": "1.6.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/three-spritetext/-/three-spritetext-1.6.4.tgz",
+  "_spec": "1.6.4",
+  "_where": "E:\\wcs1\\agvs-webserver\\Monitor",
+  "author": {
+    "name": "Vasco Asturiano",
+    "url": "http://bl.ocks.org/vasturiano"
+  },
+  "bugs": {
+    "url": "https://github.com/vasturiano/three-spritetext/issues"
+  },
+  "dependencies": {},
+  "description": "A sprite based text component for ThreeJS",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
+    "@babel/preset-env": "^7.15.6",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@types/three": ">=0.86.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.57.0",
+    "rollup-plugin-dts": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.4.3"
+  },
+  "files": [
+    "dist/**/*",
+    "example/**/*"
+  ],
+  "homepage": "https://github.com/vasturiano/three-spritetext",
+  "keywords": [
+    "three",
+    "3d",
+    "text",
+    "sprite",
+    "canvas",
+    "webgl"
+  ],
+  "license": "MIT",
+  "main": "dist/three-spritetext.common.js",
+  "module": "dist/three-spritetext.module.js",
+  "name": "three-spritetext",
+  "peerDependencies": {
+    "three": ">=0.86.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasturiano/three-spritetext.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "dev": "rollup -w -c",
+    "prepare": "npm run build"
+  },
+  "types": "dist/three-spritetext.d.ts",
+  "unpkg": "dist/three-spritetext.min.js",
+  "version": "1.6.4"
+}
