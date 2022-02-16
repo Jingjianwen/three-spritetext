@@ -32,7 +32,7 @@
     "url": "http://bl.ocks.org/vasturiano"
   },
   "bugs": {
-    "url": "https://github.com/vasturiano/three-spritetext/issues"
+    "url": "https://github.com/Jingjianwen/three-spritetext/issues"
   },
   "dependencies": {},
   "description": "A sprite based text component for ThreeJS",
@@ -55,7 +55,7 @@
     "dist/**/*",
     "example/**/*"
   ],
-  "homepage": "https://github.com/vasturiano/three-spritetext",
+  "homepage": "https://github.com/Jingjianwen/three-spritetext.git",
   "keywords": [
     "three",
     "3d",
@@ -73,7 +73,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasturiano/three-spritetext.git"
+    "url": "git+https://github.com/Jingjianwen/three-spritetext.git"
   },
   "scripts": {
     "build": "rimraf dist && rollup -c",
